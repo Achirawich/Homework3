@@ -17,7 +17,7 @@ int main()
 	cout << "Enter final (50) : ";
 	cin >> final;
 	Total1 = (first_quizz+second_quizz+third_quizz)/3 ;
-	cout << "Quizz Total : "<< Total1 < <endl;
+	cout << "Quizz Total : "<< Total1 <<endl;
 	cout << "Mid term : "<< mid_term << endl;
 	cout << "Final : " << final << endl;
 	Total2 = Total1+mid_term+final;
